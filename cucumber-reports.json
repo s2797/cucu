@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-16T05:48:34.583Z",
+        "line": 5,
+        "name": "New User SignUp",
+        "description": "",
+        "id": "title-of-your-feature;new-user-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 425600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the URL",
+            "match": {
+              "location": "StepDef.user_navigates_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enters the username \"lalitha\" and Enter the password 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 20
+                },
+                {
+                  "val": "123",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDef.enters_the_username_and_Enter_the_password(String,Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login",
+            "match": {
+              "location": "StepDef.user_clicks_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is taken to Home page",
+            "match": {
+              "location": "StepDef.user_is_taken_to_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@unit"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-16T05:48:34.606Z",
+        "line": 14,
+        "name": "Login Existing User",
+        "description": "",
+        "id": "title-of-your-feature;login-existing-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user name",
+            "match": {
+              "location": "StepDef.user_enters_user_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters password",
+            "match": {
+              "location": "StepDef.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Home page is dispalyed",
+            "match": {
+              "location": "StepDef.home_page_is_dispalyed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unit"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:cucu3/cucu3.feature",
+    "tags": []
+  }
+]
